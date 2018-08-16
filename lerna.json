@@ -1,11 +1,11 @@
 {
   "lerna": "2.5.1",
   "useWorkspaces": true,
-  "commands": {
+  "concurrency": 1,
+  "version": "3.4.11",
+  "command": {
     "publish": {
       "allowBranch": "release/3.4"
     }
-  },
-  "concurrency": 1,
-  "version": "3.4.10"
+  }
 }
